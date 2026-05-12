@@ -1,0 +1,22 @@
+{
+  "name": "tp3-back",
+  "version": "1.0.0",
+  "description": "Proyecto de desarrollo web creado para el Trabajo Práctico N°1. Consiste en la maquetación completa del sitio web para un centro de entrenamiento integral, aplicando buenas prácticas de desarrollo, diseño responsivo básico y trabajo colaborativo.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
