@@ -4,6 +4,6 @@ const router = Router();
 const equipoController = require('../controllers/equipoController');
 
 
-router.get('/equipo', equipoController.obtenerEquipo);
-
+router.get('/', equipoController.obtenerEquipo);
+console.log("EQUIPO ROUTE CARGADO");
 module.exports = router;

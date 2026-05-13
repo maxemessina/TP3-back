@@ -1,4 +1,4 @@
-const equipoModel = require('../models/equipoModel');
+const equipoModel = require('../models/equipo');
 
 class EquipoController {
 
