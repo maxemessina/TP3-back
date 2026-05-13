@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "titulo": "ENTRENÁ AL MÁXIMO EN ON GYM",
+    "subtitulo": "Tu transformación empieza hoy con el mejor equipamiento y profesionales.",
+    "cta": "Empezar Ahora"
+  },
+  "clasesDestacadas": [
+    { "nombre": "Musculación", "horario": "Lunes y Miércoles 18hs", "imagen": "musculacion.jpg" },
+    { "nombre": "Crossfit", "horario": "Martes y Jueves 20hs", "imagen": "crossfit.jpg" },
+    { "nombre": "Pilates", "horario": "Lunes y Miércoles 20hs", "imagen": "pilates.jpg" }
+  ],
+  "galeria": [
+    { "descripcion": "Zona de peso libre", "url": "gym1.jpg" },
+    { "descripcion": "Entrenamiento funcional en grupo", "url": "gym2.jpg" }
+  ]
+}
