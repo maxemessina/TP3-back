@@ -1,0 +1,38 @@
+[
+{
+    "id": 1,
+    "nombre": "Ronnie Coleman",
+    "cargo": "Coach de culturismo y fuerza",
+    "imagen": "../assets/img/ronnie-coleman.png",
+    "descripcion": "Ronnie Coleman es un reconocido fisicoculturista profesional y considerado uno de los mejores de la historia. Nació en Estados Unidos y ganó el título de Mr. Olympia en ocho ocasiones consecutivas (1998–2005). Es famoso por su enorme fuerza, su disciplina extrema en el entrenamiento y su físico masivo y definido. A lo largo de su carrera se destacó por levantar pesos muy altos y por su mentalidad motivadora, convirtiéndose en un referente del culturismo y del entrenamiento de alto rendimiento. Dicho esto es un gran orgullo que forme parte de nuestro equipo. Su amabilidad combinada con su intensidad forman un carácter más que ideal para nuestro gimnasio."
+},
+{
+    "id": 2,
+    "nombre": "Mike Israetel",
+    "cargo": "Entrenador Personal",
+    "imagen": "../assets/img/Mikel israetel.jpg",
+    "descripcion": "Especialista en entrenamiento físico que diseña rutinas personalizadas según los objetivos de cada persona. Se encarga de enseñar la técnica correcta de los ejercicios, motivar a los alumnos y supervisar el progreso para mejorar fuerza, resistencia y condición física."
+},
+{
+    "id": 3,
+    "nombre": "Layne Norton",
+    "cargo": "Nutricionista Deportivo",
+    "imagen": "../assets/img/Layne Norton.jpg",
+    "descripcion": "Profesional encargado de planificar la alimentación de los deportistas y personas que entrenan. Diseña dietas equilibradas para mejorar el rendimiento, favorecer la recuperación muscular y ayudar a alcanzar objetivos como ganar masa muscular o perder grasa."
+},
+{
+    "id": 4,
+    "nombre": "Rich Froning",
+    "cargo": "Instructor de Cross Training",
+    "imagen": "../assets/img/Rich Froning.jpg",
+    "descripcion": "Entrenador especializado en entrenamientos de alta intensidad que combinan fuerza, resistencia y ejercicios funcionales. Motiva a los alumnos a superar sus límites y mejora su rendimiento físico general."
+},
+
+{
+    "id": 5,
+    "nombre": "Kelly Starrett",
+    "cargo": "Fisioterapeuta Deportivo",
+    "imagen": "../assets/img/Kelly Starrett.jpg",
+    "descripcion": "Profesional de la salud encargado de prevenir, evaluar y tratar lesiones relacionadas con la actividad física. Ayuda a los deportistas a recuperarse, mejorar la movilidad y mantener el cuerpo en buenas condiciones para continuar entrenando de forma segura."
+}
+]
