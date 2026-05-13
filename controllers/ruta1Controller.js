@@ -1,1 +1,0 @@
-// ./controllers: OPCIONAL: No es obligatorio, pero por cada ruta nueva que le agregamos al proyecto, se puede separar la lógica en archivos diferentes, y estos se deben guardar acá. Es una buena práctica agregar ‘Controller’ al final del nombre del archivo, por ejemplo: ‘serviciosController’.
