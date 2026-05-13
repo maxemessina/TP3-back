@@ -13,7 +13,8 @@ class Server {
             servicios: '/api/servicios',
             equipo:    '/api/equipo',
             usuarios:  '/api/usuarios',
-            auth:      '/api/auth'
+            auth:      '/api/auth',
+            pedido:    '/api/pedido'
         };
 
         this.middlewares();
@@ -30,10 +31,11 @@ class Server {
     routes() {
         // archivos de rutas tienen que ir siendo creados
         this.app.use(this.paths.index, require('../routes/indexRoute'));
-        // this.app.use(this.paths.servicios, require('../routes/serviciosRoutes'));
-        this.app.use(this.paths.equipo, require('../routes/equipoRoute'));
+        this.app.use(this.paths.servicios, require('../routes/serviciosRoutes'));
+        this.app.use(this.paths.equipo,    require('../routes/equipoRoute'));
         // this.app.use(this.paths.usuarios,  require('../routes/usuariosRoutes'));
         // this.app.use(this.paths.auth,      require('../routes/authRoutes'));
+        this.app.use(this.paths.pedido, require('../routes/pedidosroutes'));
     }
 
     listen() {
