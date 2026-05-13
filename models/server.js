@@ -10,10 +10,10 @@ class Server {
         // nombres de las rutas (endpoints)
         this.paths = {
             index:     '/api/index',
-            // servicios: '/api/servicios',
-            // equipo:    '/api/equipo',
-            // usuarios:  '/api/usuarios',
-            // auth:      '/api/auth'
+            servicios: '/api/servicios',
+            equipo:    '/api/equipo',
+            usuarios:  '/api/usuarios',
+            auth:      '/api/auth'
         };
 
         this.middlewares();
