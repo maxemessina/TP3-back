@@ -30,7 +30,7 @@ class Server {
     routes() {
         // archivos de rutas tienen que ir siendo creados
         this.app.use(this.paths.index, require('../routes/indexRoute'));
-        // this.app.use(this.paths.servicios, require('../routes/serviciosRoutes'));
+        this.app.use(this.paths.servicios, require('../routes/serviciosRoutes'));
         // this.app.use(this.paths.equipo,    require('../routes/equipoRoutes'));
         // this.app.use(this.paths.usuarios,  require('../routes/usuariosRoutes'));
         // this.app.use(this.paths.auth,      require('../routes/authRoutes'));
