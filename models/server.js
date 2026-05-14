@@ -12,16 +12,11 @@ class Server {
             index:     '/api/index',
             servicios: '/api/servicios',
             equipo:    '/api/equipo',
-
-            usuarios:  '/api/usuarios',
-            auth:      '/api/auth',
             pedido:    '/api/pedido',
             faq: '/api/faq',
-
-
             perfil:  '/api/pedido',
             usuarios: '/api',
-
+            // contacto: '/api/contacto'
         };
 
         this.middlewares();
@@ -42,8 +37,7 @@ class Server {
         this.app.use(this.paths.servicios, require('../routes/serviciosRoutes'));
         this.app.use(this.paths.usuarios, require('../routes/usuariosRoute'));
         this.app.use(this.paths.equipo,    require('../routes/equipoRoute'));
-        // this.app.use(this.paths.usuarios,  require('../routes/usuariosRoutes'));
-        // this.app.use(this.paths.auth,      require('../routes/authRoutes'));
+        // this.app.use(this.paths.usuarios,  require('../routes/contactoRoutes'));
         this.app.use(this.paths.pedido, require('../routes/pedidosroutes'));
         this.app.use(this.paths.faq, require('../routes/faqRoutes'));
     }
