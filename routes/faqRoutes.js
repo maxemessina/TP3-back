@@ -1,8 +1,8 @@
 const { Router } = require('express');
 
-const { obtenerFAQ } = require('../controllers/faqController');
-
 const router = Router();
+
+const { obtenerFAQ } = require('../controllers/faqController');
 
 router.get('/', obtenerFAQ);
 
