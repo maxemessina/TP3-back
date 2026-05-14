@@ -88,3 +88,37 @@ Pide los datos al backend con fetch
 Recibe el JSON luego
 Recorre cada persona del equipo
 Crea las tarjetas en la página automáticamente
+
+Distribucion de archivos y carpetas (Valentina Guerrieri)
+En el back‑end, me encargue de la implementacion del modulo FAQ, organizando la información en distintas capas para mantener el proyecto ordenado y modular.
+data/faq.json: Archivo donde guardo las preguntas frecuentes en formato JSON.
+models/server.js: Se encarga de configurar y levantar el servidor Express, aplicando middlewares como cors y express.json, y conectando las rutas de la API.
+controllers/faqController.js: Maneja la lógica de la petición y responde con los datos del FAQ.
+routes/faqRoutes.js: Define el endpoint que expone la información de las preguntas frecuentes a la API.
+js/faq.js (Front‑end): Se encarga de consumir la API y renderizar dinámicamente las preguntas y respuestas en la página.
+
+Funciones:
+obtenerFAQ (Controller)
+Esta función recibe la petición del navegador.
+Lo que hace es leer el archivo faq.json de forma asincrona con fs.promises.readFile.Convierte el contenido a json y lo devuelve al frontend con res.json(). Si todo funciona, manda los datos. Si algo falla, devuelve un error manejado con try/catch.
+server.js (Model)
+Configura Express y los middlewares, registra las rutas, incluyendo /api/faq e Inicializa el servidor en el puerto definido en .env. Es el archivo app.js para levantar la API.
+faqRoutes.js (Routes)
+Esta es la ruta que uso para pedir el FAQ desde el navegador.
+Cuando entro a /api/faq me devuelve todas las preguntas en formato JSON, llama al controlador obtenerFAQ.
+.En el frontend: Pido los datos al backend con fetch, recibe el JSON luego, recorre cada pregunta y respuesta y crea las tarjetas en la página automaticamente.
+
+ejemplo  de faq.JSON
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cómo me registro?",
+    "respuesta": "Podés registrarte completando el formulario en la página de inicio."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cómo recupero mi contraseña?",
+    "respuesta": "Hacé clic en 'Olvidé mi contraseña' y seguí las instrucciones."
+  }
+]
+
