@@ -12,10 +12,19 @@ class Server {
             index:     '/api/index',
             servicios: '/api/servicios',
             equipo:    '/api/equipo',
+<<<<<<< HEAD
+            perfil:  '/api/perfil',
+            usuarios:  '/api/usuarios',
+            auth:      '/api/auth',
+            pedido:    '/api/pedido',
+            contacto: '/api/contacto',
+            faq:      '/api/faq'
+=======
             pedido:    '/api/pedido',
             contacto: '/api/contacto',
             faq: '/api/faq',
             usuarios: '/api',
+>>>>>>> ef6af73de1a2201b81eb5de40d394968485d6061
         };
 
         this.middlewares();
