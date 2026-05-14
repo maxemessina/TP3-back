@@ -34,6 +34,4 @@ const obtenerFAQ = async (req, res) => {
 };
 
 
-module.exports = {
-    obtenerFAQ
-};
+module.exports = { obtenerFAQ };
