@@ -12,6 +12,10 @@ class Server {
             index:     '/api/index',
             servicios: '/api/servicios',
             equipo:    '/api/equipo',
+            usuarios:  '/api/usuarios',
+            auth:      '/api/auth',
+            pedido:    '/api/pedido',
+            contacto: '/api/contacto'
             pedido:    '/api/pedido',
             faq: '/api/faq',
             perfil:  '/api/pedido',
@@ -39,6 +43,7 @@ class Server {
         this.app.use(this.paths.equipo,    require('../routes/equipoRoute'));
         // this.app.use(this.paths.usuarios,  require('../routes/contactoRoutes'));
         this.app.use(this.paths.pedido, require('../routes/pedidosroutes'));
+        this.app.use(this.paths.contacto, require('../routes/contactoRoute'));
         this.app.use(this.paths.faq, require('../routes/faqRoutes'));
     }
 
