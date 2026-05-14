@@ -1,0 +1,79 @@
+{
+  "pagina": {
+    "titulo": "Contacto",
+    "encabezado": {
+      "nombre_gimnasio": "ON GYM | Training Center"
+    },
+    "navegacion": [
+      {
+        "texto": "Inicio",
+        "enlace": "../index.html"
+      },
+      {
+        "texto": "Contacto",
+        "enlace": "contacto.html"
+      },
+      {
+        "texto": "Equipo",
+        "enlace": "equipo.html"
+      },
+      {
+        "texto": "Preguntas frecuentes",
+        "enlace": "faq.html"
+      },
+      {
+        "texto": "Servicios",
+        "enlace": "servicios.html"
+      }
+    ],
+    "formulario_contacto": {
+      "titulo": "Contacto",
+      "campos": [
+        {
+          "id": "nombre",
+          "label": "Nombre",
+          "tipo": "text",
+          "required": true
+        },
+        {
+          "id": "apellido",
+          "label": "Apellido",
+          "tipo": "text",
+          "required": true
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "tipo": "email",
+          "required": true
+        },
+        {
+          "id": "mensaje",
+          "label": "Mensaje",
+          "tipo": "textarea",
+          "rows": 5,
+          "required": true
+        }
+      ],
+      "botones": [
+        {
+          "texto": "Enviar",
+          "tipo": "submit"
+        },
+        {
+          "texto": "Borrar",
+          "tipo": "reset"
+        }
+      ]
+    },
+    "footer": {
+      "contacto": {
+        "telefono": "2915557589",
+        "email": "GymnasioON@gmail.com",
+        "instagram": "@GymONOfficial"
+      },
+      "direccion": "Av. Alem 1234, Bahía Blanca",
+      "copyright": "© 2026 ON Gym - Training Center"
+    }
+  }
+}
