@@ -1,0 +1,18 @@
+[
+  {
+    "id": "12345",
+    "nombre": "Socio de Prueba",
+    "email": "test@ongym.com",
+    "password": "123",
+    "objetivo": "Ganar masa muscular y fuerza",
+    "miembroDesde": "Mayo 2026",
+    "pedidos": [
+      {
+        "titulo": "Musculación",
+        "imagen": "musculacion.jpg",
+        "estado": "Activo",
+        "precio": 41000
+      }
+    ]
+  }
+]

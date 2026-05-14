@@ -1,3 +1,107 @@
-/data: En esta carpeta vamos
-a tener los archivos JSON que se van
-. a consultar como si fuera una base de datos.
+[
+  {
+    "id": 1,
+    "nombre": "Musculación",
+    "descripcion": "Sala equipada con máquinas de última generación y pesos libres para desarrollar fuerza y masa muscular.",
+    "imagen": "musculacion.jpg",
+    "precio": 41000
+  },
+  {
+    "id": 2,
+    "nombre": "Crossfit",
+    "descripcion": "Entrenamiento funcional de alta intensidad para mejorar tu resistencia cardiovascular y respiratoria.",
+    "imagen": "crossfit.jpg",
+    "precio": 39000
+  },
+  {
+    "id": 3,
+    "nombre": "Pilates",
+    "descripcion": "Clases enfocadas en mejorar la flexibilidad, la postura y la fuerza del core mediante movimientos controlados.",
+    "imagen": "pilates.jpg",
+    "precio": 40000
+  },
+  {
+    "id": 4,
+    "nombre": "Spinning",
+    "descripcion": "Clases de ciclismo indoor con música a tope para quemar calorías y fortalecer las piernas.",
+    "imagen": "spinning.jpg",
+    "precio": 35000
+  },
+  {
+    "id": 5,
+    "nombre": "Yoga",
+    "descripcion": "Conecta cuerpo y mente, reduce el estrés y mejora tu flexibilidad con nuestras clases guiadas.",
+    "imagen": "yoga.jpg",
+    "precio": 38000
+  },
+  {
+    "id": 6,
+    "nombre": "Zumba",
+    "descripcion": "Divertite y quema calorías bailando al ritmo de la mejor música latina e internacional.",
+    "imagen": "zumba.jpg",
+    "precio": 32000
+  },
+  {
+    "id": 7,
+    "nombre": "Boxeo Recreativo",
+    "descripcion": "Aprende técnica de golpeo, mejora tus reflejos y descargá tensiones en la bolsa.",
+    "imagen": "boxeo.jpg",
+    "precio": 42000
+  },
+  {
+    "id": 8,
+    "nombre": "Entrenamiento Funcional",
+    "descripcion": "Circuitos dinámicos utilizando el peso de tu propio cuerpo y accesorios ligeros.",
+    "imagen": "funcional.jpg",
+    "precio": 37000
+  },
+  {
+    "id": 9,
+    "nombre": "Calistenia",
+    "descripcion": "Domina el control de tu cuerpo en las barras y anillas, ganando fuerza real y agilidad.",
+    "imagen": "calistenia.jpg",
+    "precio": 35000
+  },
+  {
+    "id": 10,
+    "nombre": "Entrenamiento Táctico",
+    "descripcion": "Acondicionamiento físico con temática de estilo militar para llevar tu resistencia al límite.",
+    "imagen": "tactico.jpg",
+    "precio": 45000
+  },
+  {
+    "id": 11,
+    "nombre": "Stretching",
+    "descripcion": "Clases de estiramiento profundo, ideales para la recuperación muscular y evitar lesiones.",
+    "imagen": "stretching.jpg",
+    "precio": 30000
+  },
+  {
+    "id": 12,
+    "nombre": "TRX",
+    "descripcion": "Entrenamiento en suspensión que desafía tu equilibrio y fortalece todo tu cuerpo.",
+    "imagen": "trx.jpg",
+    "precio": 38000
+  },
+  {
+    "id": 13,
+    "nombre": "Artes Marciales Mixtas",
+    "descripcion": "Iniciación a las MMA combinando disciplinas de striking y grappling en un entorno seguro.",
+    "imagen": "mma.jpg",
+    "precio": 45000
+  },
+  {
+    "id": 14,
+    "nombre": "Gimnasia Postural",
+    "descripcion": "Ejercicios terapéuticos para corregir malas posturas y aliviar dolores de espalda.",
+    "imagen": "postural.jpg",
+    "precio": 36000
+  },
+  {
+    "id": 15,
+    "nombre": "HIIT",
+    "descripcion": "Entrenamiento de intervalos de alta intensidad, ráfagas cortas para acelerar tu metabolismo.",
+    "imagen": "hiit.jpg",
+    "precio": 37000
+  }
+]
