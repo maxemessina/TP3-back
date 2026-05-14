@@ -75,9 +75,6 @@ Lo que hace es llamar al modelo para obtener los datos del equipo y después los
 Si todo funciona, manda los datos.
 Si algo falla, devuelve un error.
 
-
-Esta es la ruta que uso para pedir el equipo desde el navegador.
-
 Cuando entro a equipo me devuelve todos los integrantes en formato JSON.
 
 cargarEquipo (Front-end)
