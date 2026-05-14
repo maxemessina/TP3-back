@@ -14,7 +14,8 @@ class Server {
             equipo:    '/api/equipo',
             usuarios:  '/api/usuarios',
             auth:      '/api/auth',
-            pedido:    '/api/pedido'
+            pedido:    '/api/pedido',
+            contacto: '/api/contacto'
         };
 
         this.middlewares();
@@ -36,6 +37,7 @@ class Server {
         // this.app.use(this.paths.usuarios,  require('../routes/usuariosRoutes'));
         // this.app.use(this.paths.auth,      require('../routes/authRoutes'));
         this.app.use(this.paths.pedido, require('../routes/pedidosroutes'));
+        this.app.use(this.paths.contacto, require('../routes/contactoRoute'));
     }
 
     listen() {
