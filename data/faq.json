@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Qué horarios tienen?",
+        "respuesta": "De lunes a sábado de 7 a 22 hs."
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Puedo probar antes de pagar?",
+        "respuesta": "Sí, ofrecemos una clase gratuita."
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Qué incluye la cuota mensual?",
+        "respuesta": "Incluye máquinas, clases grupales y asesoramiento."
+    },
+    {
+        "id": 4,
+        "pregunta": "¿Hay seguro en caso de emergencias?",
+        "respuesta": "Sí, contamos con atención en casos de emergencia."
+    },
+    {
+        "id": 5,
+        "pregunta": "¿Hacen planes personalizados?",
+        "respuesta": "Sí, contamos con personal trainers."
+    }
+]
